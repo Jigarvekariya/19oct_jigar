@@ -1,10 +1,10 @@
 #include<stdio.h>
-
-int main(){
-
-char ch;
-printf("Enter any character");
-scanf("%c",&ch);
-printf("%d",ch);
-return 0;
+int main(int argc, char const *argv[])
+{
+    char ch;
+    printf("enter char");
+    scanf("%c",&ch);
+    int ascii=ch;
+    printf("ascii value=%d",ascii);
+    return 0;
 }
